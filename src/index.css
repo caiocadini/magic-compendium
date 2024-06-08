@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body{
+    @apply bg-white;
+    @apply h-full;
+    @apply text-sm;
+  }
+  header{
+    @apply text-xs; 
+  }
+  html{
+    @apply text-black;
+  }
+  h1{
+    @apply text-4xl;
+  }
+  h2{
+    @apply text-2xl;
+  }
+
+}
